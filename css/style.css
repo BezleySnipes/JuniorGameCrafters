@@ -190,13 +190,48 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
   margin-right: 570px;
 }
 
+.col {
+    float: left;
+    width: 29%;
+    height: 500px;
+    background-color: orange;
+    padding: 5px;
+    margin: 15px;
+    border-radius: 20px;
+}
+
+.coltext{
+    color: white;
+    padding: 5px;
+    margin: 15px;
+}
+
+#colh1{
+  color: white;
+}
+
+.colbox{
+    width: 90%;
+    height: 350px;
+    margin: 5%;
+    padding: 1%;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.colboxtext{
+    width: 83%;
+    margin: 15%;
+
+}
+
 #footer
 { width: inherit;
   font: normal 100% 'lucida sans unicode', arial, sans-serif;
   height: 30px;
   padding: 5px 0 5px 0;
   text-align: center; 
-  background: lightgray;
+  background: linear-gradient(lightgrey,gray);
   color: #FFF;
   text-transform: uppercase;
   letter-spacing: 0.1em;
