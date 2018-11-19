@@ -132,7 +132,7 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
   margin-top: 40PX;
   border-radius: 30px 300px;
 }
-#smicons{
+.smicons{
   float: right;
   height: 40px;
   padding: 10px;
