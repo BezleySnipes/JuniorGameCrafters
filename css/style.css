@@ -120,8 +120,16 @@ ul#menu li a
   text-decoration: none;
   } 
 
-ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
-{ color: #FFF;
+ul#menu li.selected a:hover{
+  color: orange;
+}
+
+ul#menu li.selected a{
+  color: orange;
+}
+
+ul#menu li a:hover
+{ 
   color: orange;
 }
 
